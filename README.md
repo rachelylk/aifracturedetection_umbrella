@@ -82,6 +82,75 @@ aifracturedetection_umbrella/
 ├── README.md
 └── LICENSE
 ```
+---
+
+# Quickstart
+
+First, clone the repository: 
+git clone https://github.com/rachelylk/aifracturedetection_umbrella.git
+
+Open R in the repo root, or set your own working directory. 
+
+Then, run the entire pipeline:
+```source("analysis/run_all.R")```
+
+---
+# Reproducing key results
+
+## Primary analyses
+
+To run the primary analyses, use: 
+
+```source("analysis/R/2_models_main.R")```
+
+This script fits three-level random-effects models for:
+- AI-alone sensitivity and specificity
+- Clinicians-alone
+- AI-assisted clinicians
+
+Then, back-transforms estimates to probability scale and finally saves model objects and tables into results/
+
+## Subgroup and moderator analyses
+
+To run the subgroup and moderator analyses, use: 
+
+```source("analysis/R/3_models_subgroups_RVE.R")```
+
+This script fits moderator models (modality, anatomy, validation type, population), computes robust CR2 RVE estimates and exports tables for the manuscript
+
+## Sensitivity analyses
+
+To run the described sensitivity analyses, use: 
+
+```source("analysis/R/4_sensitivity_analyses.R")```
+
+Includes:
+- Index reviews only
+- Removal of AMSTAR-2 'very low' reviews
+
+## Figures & tables
+
+To reproduce the figures from the paper, use: 
+
+```source("analysis/R/5_forest_plots.R")```
+
+This produces:
+– Forest plot of main comparators
+– Subgroup forest plot
+
+Outputs are then saved to /results/plots/figs_main
+
+# Scripts and workflows
+
+run_all.R orchestrates the full workflow.
+
+Each script in 05_analysis/R/ is modular and documented.
+
+Re-run individual components by sourcing the corresponding script.
+
+Example:
+
+source("05_analysis/R/03_models_subgroups_RVE.R")
 
 
 
