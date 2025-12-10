@@ -1,2 +1,87 @@
-# aifracturedetection_umbrella
-This repository includes the data and code for the paper, "Performance of artificial intelligence for fracture detection: an overview of reviews and second-order meta-analysis"
+# Performance of artificial intelligence for fracture detection: an overview of reviews and second-order meta-analysis
+
+This repository contains the data, code, and supplementary material for the paper:
+
+**“Performance of artificial intelligence for fracture detection: an overview of reviews and second-order meta-analysis.”**  
+Rachel Kuo*, Ciaran O'Hanlon*, Alexander Freethy*, Catriona Stoddart,Sophie Ludbrook, Alan Hasanic, Eli Harriss, Dominic Furniss, Gary S Collins
+
+*Joint first authorship
+
+-to add full citation-
+
+---
+
+## License 
+- License: MIT 
+- DOI: *to fill in*
+
+---
+
+# Table of contents
+- [Overview](#overview)
+- [Citation](#citation)
+- [Repository structure](#repository-structure)
+- [Quickstart](#quickstart)
+- [Reproducing key results](#reproducing-key-results)
+- [Scripts and workflows](#scripts-and-workflows)
+- [Data](#data)
+- [Output and figures](#output-and-figures)
+- [How to cite](#how-to-cite)
+- [Contributing](#contributing)
+- [Contact](#contact)
+
+---
+
+# Overview
+
+This repository contains the complete analysis pipeline used in the umbrella review and second-order meta-analysis assessing the diagnostic performance of artificial intelligence (AI) for fracture detection.  
+
+The repo provides:
+
+- R code for all analyses  
+- Datasets  
+- Three-level random-effects models  
+- Moderator and subgroup analyses  
+- Robust variance estimation (CR2)  
+- Sensitivity analyses  
+- Forest plots and appendix model checks
+  
+---
+
+# Citation
+
+Please cite the manuscript when using results or code from this repository.
+
+**to fill in**
+
+---
+
+
+## Repository structure
+
+```bash
+aifracturedetection_umbrella/
+├── analysis/
+│   ├── R/
+│   │   ├── 0_setup.R
+│   │   ├── 1_prepare_data.R
+│   │   ├── 2_models_main.R
+│   │   ├── 3_models_subgroups_RVE.R
+│   │   ├── 4_sensitivity_analyses.R
+│   │   ├── 5_forest_plots.R
+│   │   ├── 6_check3Lmodelfit.R
+│   │   └── 00_run_all.R  # run whole pipeline
+│   ├── data/
+│   │   ├── ma_results.xlsx # extracted dataset for included meta-analyses
+│   │   └── forest_plots.xlsx # data to produce Forest plots
+│   └── results/
+│       ├── models/
+│       ├── tables/
+│       └── plots/
+│           └── figs_main/
+├── README.md
+└── LICENSE
+```
+
+
+
