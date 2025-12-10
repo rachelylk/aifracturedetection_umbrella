@@ -26,7 +26,9 @@ Rachel Kuo*, Ciaran O'Hanlon*, Alexander Freethy*, Catriona Stoddart,Sophie Ludb
 - [Scripts and workflows](#scripts-and-workflows)
 - [Data](#data)
 - [Output and figures](#output-and-figures)
+- [Supplement](#supplement)
 - [How to cite](#how-to-cite)
+- [Generative AI declaration](#gen-ai)
 - [Contact](#contact)
 
 ---
@@ -73,11 +75,15 @@ aifracturedetection_umbrella/
 │   ├── data/
 │   │   ├── ma_results.xlsx # extracted dataset for included meta-analyses
 │   │   └── forest_plots.xlsx # data to produce Forest plots
-│   └── results/
-│       ├── models/
-│       ├── tables/
-│       └── plots/
-│           └── figs_main/
+│   └── figures_tables/
+│       ├── figs_main/
+├── supplement/
+│   ├── 2_database_searches
+│   ├── 3_excluded_papers
+│   ├── 4_meta_analysis_GROOVE
+│   ├── 5_systematic_review_GROOVE
+│   ├── 6_secondorderma_code.R
+│   ├── 7_ma_data_sensitivity_analyses
 ├── README.md
 └── LICENSE
 ```
@@ -201,6 +207,10 @@ Saved under:
 
 PDF and PNG versions are provided.
 
+# Supplement
+
+Supplementary data cited in the paper.
+
 # How to cite 
 
 If you use code or processed data:
@@ -209,6 +219,12 @@ Kuo, R. (2025). aifracturedetection_umbrella: Code and data for
 "Performance of artificial intelligence for fracture detection: 
 an overview of reviews and second-order meta-analysis". 
 https://github.com/rachelylk/aifracturedetection_umbrella
+
+# Generative AI declaration
+
+Code for second-order meta-analysis and producing Forest plots, was written by RK (Supplement 6). 
+For the purposes of this repository, the code in Supplement 6 was refactored and modularised. Generative AI was used to split the full code into modules. 
+All outputs have been checked. 
 
 # Contact
 
