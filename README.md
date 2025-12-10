@@ -71,7 +71,6 @@ aifracturedetection_umbrella/
 │   │   ├── 3_models_subgroups_RVE.R
 │   │   ├── 4_sensitivity_analyses.R
 │   │   ├── 5_forest_plots.R
-│   │   ├── 6_check3Lmodelfit.R
 │   │   └── 00_run_all.R  # run whole pipeline
 │   ├── data/
 │   │   ├── ma_results.xlsx # extracted dataset for included meta-analyses
