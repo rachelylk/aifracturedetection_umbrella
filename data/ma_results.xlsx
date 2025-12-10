@@ -1,0 +1,78 @@
+meta_id	author	year	modality	anatomy	validation	comparator	population	outcome_label	sens	sens_ci_low	sens_ci_high	spec	spec_ci_low	spec_ci_high	n_primary	n_images	meta-analytic methods
+MA01	Beculic	2024	mixed	axial	mixed	ai-alone	mixed	vertebral fracture, all modalities	0.91	0.86	0.95	0.9	0.86	0.93	11	14524	random effects
+MA02	Binh	2025	radiographs	upper limb	mixed	ai-alone	paediatric	paediatric elbow fracute on radiograph	0.93	0.91	0.96	0.89	0.85	0.92	6	425294	bivariate binomial 
+MA03	Dashti	2024	radiographs	skull	mixed	ai-alone	mixed	mandibular fractures on radiographs	0.971	0.881	0.949	0.813	0.797	0.824	5	890	hsroc
+MA04	Den Hengst	2025	ct	axial	internal	ai-alone	mixed	rib fractures on ct	0.867	0.826	0.902				15	12350	random effects
+MA04	Den Hengst	2025	ct	axial	external	ai-alone	mixed	rib fractures on ct	0.866	0.817	0.908				8	7685	random effects
+MA04	Den Hengst	2025	ct	axial	internal	clinicians	mixed	rib fractures on ct	0.754	0.681	0.821				11	10454	random effects
+MA04	Den Hengst	2025	ct	axial	external	clinicians	mixed	rib fractures on ct	0.78	0.689	0.858				5	7067	random effects
+MA05	Hansen 	2024	radiographs	upper limb	mixed	ai-alone	adults	wrist fractures on radiographs, adults	0.92	0.8	0.97	0.93	0.76	0.98	6	33026	bivariate random effects
+MA06	Husarek	2024	radiographs	mixed	external	ai-alone	mixed	any fracture on any modality	0.91	0.86	0.94	0.89	0.87	0.91	15	38978	random effects bivariate
+MA06	Husarek	2024	radiographs	lower limb	external	ai-alone	mixed	ankle/foot	0.91	0.87	0.94	0.88	0.81	0.93	7		random effects bivariate
+MA06	Husarek	2024	radiographs	lower limb	external	ai-alone	mixed	knee/leg	0.91	0.81	0.96	0.91	0.89	0.93	7		random effects bivariate
+MA06	Husarek	2024	radiographs	lower limb	external	ai-alone	mixed	pelviship	0.9	0.84	0.94	0.91	0.88	0.94	4		random effects bivariate
+MA06	Husarek	2024	radiographs	upper limb	external	ai-alone	mixed	elbow/arm	0.91	0.77	0.97	0.93	0.86	0.97	7		random effects bivariate
+MA06	Husarek	2024	radiographs	upper limb	external	ai-alone	mixed	hand/wrist	0.95	0.92	0.96	0.87	0.81	0.92	7		random effects bivariate
+MA06	Husarek	2024	radiographs	upper limb	external	ai-alone	mixed	shoulder/clavicle	0.91	0.79	0.96	0.89	0.83	0.93	7		random effects bivariate
+MA06	Husarek	2024	radiographs	axial	external	ai-alone	mixed	ribs	0.66	0.44	0.84	0.82	0.64	0.92	3		random effects bivariate
+MA06	Husarek	2024	radiographs	axial	external	ai-alone	mixed	spine	0.9	0.77	0.96	0.89	0.85	0.92	3		random effects bivariate
+MA06	Husarek	2024	radiographs	mixed	external	ai-assist	mixed	clinician with ai	0.8	0.69	0.87	0.95	0.92	0.96	7		random effects bivariate
+MA06	Husarek	2024	radiographs	mixed	external	clinicians	mixed	clinician alone	0.76	0.66	0.84	0.93	0.9	0.95	7		random effects bivariate
+MA07	Ju	2025	mixed	skull	mixed	ai-alone	mixed	nasal and mandibular fractures	0.889	0.844	0.922	0.888	0.834	0.926	11	4166	random effects, hsroc
+MA08	Jung	2024	mixed	mixed	mixed	ai-alone	mixed	image only	0.92	0.9	0.94	0.91	0.88	0.93	54		random effects, hsroc
+MA08	Jung	2024	added tabular	mixed	mixed	ai-alone	mixed	image and tabular	0.84	0.76	0.89	0.95	0.88	0.98	3		random effects, hsroc
+MA08	Jung	2024	radiographs	mixed	mixed	ai-alone	mixed	radiographs	0.94	0.9	0.96	0.92	0.89	0.94	33		random effects, hsroc
+MA08	Jung	2024	ct	mixed	mixed	ai-alone	mixed	ct	0.89	0.8	0.94	0.9	0.85	0.93	12		random effects, hsroc
+MA08	Jung	2024	mri	mixed	mixed	ai-alone	mixed	mri	0.91	0.83	0.95	0.89	0.84	0.96	5		random effects, hsroc
+MA08	Jung	2024	mixed	axial	mixed	ai-alone	mixed	vertebral	0.86	0.82	0.89	0.86	0.81	0.9	20		random effects, hsroc
+MA08	Jung	2024	mixed	lower limb	mixed	ai-alone	mixed	hip	0.92	0.87	0.96	0.9	0.85	0.93	18		random effects, hsroc
+MA08	Jung	2024	mixed	lower limb	mixed	ai-alone	mixed	femoral neck	0.94	0.87	0.97	0.9	0.64	0.98	4		random effects, hsroc
+MA08	Jung	2024	mixed	upper limb	mixed	ai-alone	mixed	wrist	0.9	0.76	0.96	0.93	0.85	0.97	3		random effects, hsroc
+MA08	Jung	2024	mixed	upper limb	mixed	ai-alone	mixed	scaphoid	0.92	0.68	0.98	0.81	0.54	0.94	2		random effects, hsroc
+MA08	Jung	2024	mixed	axial	mixed	ai-alone	mixed	thoracolumbar	0.97	0.84	0.99	0.92	0.9	0.95	2		random effects, hsroc
+MA09	Kraus	2023	radiographs	upper limb	mixed	ai-alone	mixed	scaphoid	0.8	0.747	0.844	0.893	0.822	0.938	7	3373	bivariate random effects
+MA10	Kuo	2022	mixed	mixed	internal	ai-alone	mixed	mixed	0.92	0.88	0.94	0.91	0.88	0.93	26	55016	random effects, hsroc
+MA10	Kuo	2022	mixed	mixed	external	ai-alone	mixed	mixed	0.91	0.84	0.95	0.91	0.82	0.96	15		random effects, hsroc
+MA10	Kuo	2022	mixed	mixed	external	ai-assist	mixed	mixed	0.97	0.83	0.99	0.92	0.88	0.95	4		random effects, hsroc
+MA10	Kuo	2022	mixed	mixed	internal	clinicians	mixed	mixed	0.91	0.85	0.95	0.92	0.89	0.95	12		random effects, hsroc
+MA10	Kuo	2022	mixed	mixed	external	clinicians	mixed	mixed	0.94	0.9	0.96	0.94	0.91	0.95	7		random effects, hsroc
+MA11	Lex	2023	radiographs	lower limb	mixed	ai-alone	mixed	hip	0.893	0.892	0.894	0.875	9,874	0.876	18	39598	random effects
+MA12	Li	2024	mixed	axial	mixed	ai-alone	adults	vertebral	0.91	0.86	0.94	0.95	0.92	0.97	25	100058	bivariate mixed effects
+MA12	Li	2024	radiographs	axial	mixed	ai-alone	adults	vertebral	0.87	0.79	0.93	0.93	0.86	0.97	10		bivariate mixed effects
+MA12	Li	2024	ct	axial	mixed	ai-alone	adults	vertebral	0.93	0.87	0.96	0.96	0.91	0.98	13		bivariate mixed effects
+MA13	Lopez-Melia	2024	ct	axial	mixed	ai-alone	mixed	rib	0.8348	0.7954	0.8742				7		random effects
+MA14	Mellon	2025	radiographs	upper limb	mixed	ai-alone	mixed	upper limb	0.9765	0.9716	0.9813	0.9138	0.9087	0.9189	10		NR
+MA15	Nowroozi	2024	radiographs	mixed	mixed	ai-alone	adults	mixed	0.8999	0.8555	0.9318	0.931	0.9001	0.9529	30		bivariate hsroc
+MA15	Nowroozi	2024	radiographs	mixed	mixed	ai-alone	mixed	mixed	0.9143	0.8886	0.9346	0.9212	0.9016	0.9371	83	89652	bivariate hsroc
+MA15	Nowroozi	2024	radiographs	skull	mixed	ai-alone	mixed	skull	0.9188	0.6918	0.9828	0.8926	0.6858	0.9694	5		bivariate hsroc
+MA15	Nowroozi	2024	radiographs	upper limb	mixed	ai-alone	mixed	shoulder	0.8004	0.7876	0.8125	0.8506	0.8395	0.8611	2		bivariate hsroc
+MA15	Nowroozi	2024	radiographs	upper limb	mixed	ai-alone	mixed	elbow	0.9146	0.8911	0.9334	0.8628	0.8368	0.8852	2		bivariate hsroc
+MA15	Nowroozi	2024	radiographs	upper limb	mixed	ai-alone	mixed	wrist	0.8977	0.8643	0.9235	0.9099	0.8796	0.9332	21		bivariate hsroc
+MA15	Nowroozi	2024	radiographs	axial	mixed	ai-alone	mixed	chest	0.5999	0.44	0.741	0.8964	0.7598	0.9595	5		bivariate hsroc
+MA15	Nowroozi	2024	radiographs	lower limb	mixed	ai-alone	mixed	pelvis	0.7259	0.6913	0.758	0.9548	0.9365	0.968	2		bivariate hsroc
+MA15	Nowroozi	2024	radiographs	lower limb	mixed	ai-alone	mixed	hip	0.921	0.8891	0.9443	0.9208	0.8686	0.9534	20		bivariate hsroc
+MA15	Nowroozi	2024	radiographs	lower limb	mixed	ai-alone	mixed	femur	0.9343	0.8942	0.9599	0.9071	0.8458	0.9456	4		bivariate hsroc
+MA15	Nowroozi	2024	radiographs	lower limb	mixed	ai-alone	mixed	tibia/fibula	0.9596	0.9066	0.9831	0.888	0.8266	0.9295	3		bivariate hsroc
+MA15	Nowroozi	2024	radiographs	lower limb	mixed	ai-alone	mixed	ankle	0.9108	0.8065	0.9615	0.911	0.8596	0.9448	6		bivariate hsroc
+MA15	Nowroozi	2024	radiographs	lower limb	mixed	ai-alone	mixed	foot	0.7588	0.7105	0.8013	0.7915	0.7605	0.8195	2		bivariate hsroc
+MA15	Nowroozi	2024	radiographs	mixed	internal	ai-alone	mixed	mixed	0.894	0.8625	0.9189	0.9089	0.8853	0.9281	50		bivariate hsroc
+MA15	Nowroozi	2024	radiographs	mixed	external	ai-alone	mixed	mixed	0.8948	0.8525	0.926	0.9035	0.8705	0.9287	33		bivariate hsroc
+MA15	Nowroozi	2024	radiographs	mixed	mixed	ai-alone	paediatric	mixed	0.9037	0.8562	0.9367	0.8742	0.8136	0.9171	10		bivariate hsroc
+MA15	Nowroozi	2024	radiographs	mixed	mixed	clinicians	mixed	mixed	0.8483	0.771	0.8997	0.913	0.8778	0.9387	24		bivariate hsroc
+MA17	Ramadanov	2024	radiographs	lower limb	mixed	ai-alone	mixed	neck of femur	0.87	0.77	0.93	0.91	0.77	0.97	11	21163	random effects
+MA18	Sharifi	2024	ct	skull	mixed	ai-alone	mixed	skull	0.87	0.83	0.91	0.91	0.86	0.95	11	20798	random effects
+MA19	Suen	2024	radiographs	upper limb	mixed	ai-alone	mixed	distal radius	0.92	0.88	0.95	0.89	0.84	0.92	10	3590	random effects
+MA19	Suen	2024	radiographs	upper limb	mixed	ai-alone	mixed	scaphoid	0.85	0.73	0.92	0.83	0.76	0.89	5	2657	random effects
+MA19	Suen	2024	radiographs	upper limb	mixed	clinicians	mixed	distal radius	0.95	0.91	0.97	0.94	0.91	0.96	10	3590	random effects
+MA19	Suen	2024	radiographs	upper limb	mixed	clinicians	mixed	scaphoid	0.71	0.66	0.76	0.93	0.9	0.95	5	2657	random effects
+MA21	Wong	2024	radiographs	upper limb	mixed	ai-alone	mixed	hand/wrist	0.902	0.872	0.926	0.882	0.858	0.903	31		NR
+MA21	Wong	2024	radiographs	upper limb	mixed	ai-assist	mixed	hand/wrist	0.881	0.804	0.93	0.953	0.937	0.966	7		NR
+MA21	Wong	2024	radiographs	upper limb	mixed	clinicians	mixed	hand/wrist	0.858	0.79	0.906	0.922	0.897	0.941	18		NR
+MA22	van den Broek	2024	ct	axial	mixed	ai-alone	mixed	rib	0.85	0.78	0.92	0.96	0.94	0.97	12		random effects
+MA23	Yang	2020	mixed	mixed	mixed	ai-alone	mixed	mixed	0.87	0.78	0.93	0.91	0.85	0.95	17	5434	random effects
+MA24	Zhang	2022	mixed	mixed	mixed	ai-alone	mixed	mixed	0.9	0.87	0.92	0.92	0.9	0.94	39	464478	
+MA24	Zhang	2022	radiographs	mixed	mixed	ai-alone	mixed	mixed	0.91	0.88	0.93	0.91	0.88	0.93	38	417733	
+MA24	Zhang	2022	dexa	mixed	mixed	ai-alone	mixed	mixed	0.84	0.8	0.88	0.93	0.89	0.96	9	41768	
+MA24	Zhang	2022	ct	mixed	mixed	ai-alone	mixed	mixed	0.86	0.71	0.94	0.93	0.84	0.97	6	4977	
+MA24	Zhang	2022	mixed	mixed	mixed	ai-assist	mixed	mixed	0.98	0.94	1	0.91	0.86	0.95	3		
+MA24	Zhang	2022	mixed	mixed	mixed	clinicians	mixed	mixed	0.9	0.85	0.93	0.95	0.93	0.96	16		
