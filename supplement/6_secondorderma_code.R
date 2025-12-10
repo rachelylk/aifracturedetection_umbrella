@@ -770,7 +770,7 @@ predict(ai_3L_specificity_amstar, transf = plogis)
 # 4: Forest plots: main comparators
 # ==============================
 
-main_forest <- read_excel("/Users/rkuo/Documents/DPhil/Umbrella review/Submission folder/MA_results.xlsx",
+main_forest <- read_excel("INPUT",
                               sheet = "Comparators")
 
 main_forest$'' <-paste(rep(" ", 50), collapse = " ")
@@ -860,7 +860,7 @@ plot(mainp)
 # 4b: Forest plots: subgroups
 # ==============================
 
-subgroup_forest <- read_excel("/Users/rkuo/Documents/DPhil/Umbrella review/Submission folder/MA_results.xlsx",
+subgroup_forest <- read_excel("INPUT",
                           sheet = "Subgroups")
 
 subgroup_forest$'' <-paste(rep(" ", 20), collapse = " ")
