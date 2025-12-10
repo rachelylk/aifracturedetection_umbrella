@@ -1,4 +1,4 @@
-# analysis/R/01_prepare_data.R
+# analysis/R/1_prepare_data.R
 source("analysis/R/0_setup.R")
 
 # Load data ---------------------------------------------------------------
