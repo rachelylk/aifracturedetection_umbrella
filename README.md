@@ -27,7 +27,6 @@ Rachel Kuo*, Ciaran O'Hanlon*, Alexander Freethy*, Catriona Stoddart,Sophie Ludb
 - [Data](#data)
 - [Output and figures](#output-and-figures)
 - [How to cite](#how-to-cite)
-- [Contributing](#contributing)
 - [Contact](#contact)
 
 ---
@@ -144,13 +143,74 @@ Outputs are then saved to /results/plots/figs_main
 
 run_all.R orchestrates the full workflow.
 
-Each script in 05_analysis/R/ is modular and documented.
+Each script in analysis/R/ is modular.
 
 Re-run individual components by sourcing the corresponding script.
 
 Example:
 
-source("05_analysis/R/03_models_subgroups_RVE.R")
+```source("analysis/R/3_models_subgroups_RVE.R")```
 
+# Data
 
+This folder contains the data used for second-order meta-analysis. 
+
+## data/ma_results.xlsx
+
+Contains extracted results from each included meta-analysis:
+- Sensitivity and specificity
+- Lower/upper 95% confidence bounds
+- Modality, anatomy, validation type
+- Comparator group
+- Population
+- Number of included primary studies
+- Meta-analytic method used (RE, bivariate, HSROC, etc.)
+
+## data/forest_plots.xlsx
+
+Contains the final  tables used to generate Forest plots.
+
+No patient-level data are included.
+
+# Output and figures
+
+All results are stored in:
+
+```analysis/results/```
+
+## Model objects (.rds)
+
+These include:
+- prepared_data.rds
+- main_models.rds
+- multivariable_models.rds
+- rve_models.rds
+- sensitivity_models.rds
+- appendix_model_checks.rds
+
+## Tables 
+
+Saved under: ```results/tables/ ```
+Include all estimates used in manuscript figures and supplementary tables.
+
+## Figures
+
+Saved under:
+
+```results/plots/figs_main/```
+
+PDF and PNG versions are provided.
+
+# How to cite 
+
+If you use code or processed data:
+
+Kuo, R. (2025). aifracturedetection_umbrella: Code and data for 
+"Performance of artificial intelligence for fracture detection: 
+an overview of reviews and second-order meta-analysis". 
+https://github.com/rachelylk/aifracturedetection_umbrella
+
+# Contact
+
+Please contact rachel.kuo@ndorms.ox.ac.uk with queries. 
 
