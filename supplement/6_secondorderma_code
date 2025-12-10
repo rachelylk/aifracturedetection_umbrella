@@ -20,7 +20,7 @@ library(grid)
 # ==============================
 
 # Input/output 
-infile <- "/Users/rkuo/Documents/DPhil/Umbrella review/Submission folder/ma_extraction.xlsx"
+infile <- "PUTINHERE"
 outdir <- "outputs/tables"
 dir.create(outdir, showWarnings = FALSE, recursive = TRUE)
 
