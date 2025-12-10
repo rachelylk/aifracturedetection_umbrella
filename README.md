@@ -27,6 +27,7 @@ Rachel Kuo*, Ciaran O'Hanlon*, Alexander Freethy*, Catriona Stoddart,Sophie Ludb
 - [Data](#data)
 - [Output and figures](#output-and-figures)
 - [Supplement](#supplement)
+- [Required R packages](#rpackages)
 - [How to cite](#how-to-cite)
 - [Generative AI declaration](#gen-ai)
 - [Contact](#contact)
@@ -211,6 +212,55 @@ PDF and PNG versions are provided.
 
 Supplementary data cited in the paper.
 
+# Required R packages
+
+Wickham H, Bryan J (2025). _readxl: Read Excel Files_.
+  doi:10.32614/CRAN.package.readxl
+  <https://doi.org/10.32614/CRAN.package.readxl>, R package version
+  1.4.5, <https://CRAN.R-project.org/package=readxl>
+
+Schauberger P, Walker A (2025). _openxlsx: Read, Write and Edit xlsx
+  Files_. doi:10.32614/CRAN.package.openxlsx
+  <https://doi.org/10.32614/CRAN.package.openxlsx>, R package version
+  4.2.8, <https://CRAN.R-project.org/package=openxlsx>.
+
+Wickham H, Averick M, Bryan J, Chang W, McGowan LD, François R,
+  Grolemund G, Hayes A, Henry L, Hester J, Kuhn M, Pedersen TL, Miller
+  E, Bache SM, Müller K, Ooms J, Robinson D, Seidel DP, Spinu V,
+  Takahashi K, Vaughan D, Wilke C, Woo K, Yutani H (2019). “Welcome to
+  the tidyverse.” _Journal of Open Source Software_, *4*(43), 1686.
+  doi:10.21105/joss.01686 <https://doi.org/10.21105/joss.01686>.
+
+Viechtbauer, W. (2010). Conducting meta-analyses in R with the
+  metafor package. Journal of Statistical Software, 36(3), 1-48.
+  https://doi.org/10.18637/jss.v036.i03
+
+Balduzzi S, Rücker G, Schwarzer G (2019), How to perform a
+  meta-analysis with R: a practical tutorial, Evidence-Based Mental
+  Health; 22: 153-160.
+
+Pustejovsky JE (2025). _clubSandwich: Cluster-Robust (Sandwich)
+  Variance Estimators with Small-Sample Corrections_.
+  doi:10.32614/CRAN.package.clubSandwich
+  <https://doi.org/10.32614/CRAN.package.clubSandwich>, R package
+  version 0.6.1, <https://CRAN.R-project.org/package=clubSandwich>.
+
+Hester J, Bryan J (2024). _glue: Interpreted String Literals_.
+  doi:10.32614/CRAN.package.glue
+  <https://doi.org/10.32614/CRAN.package.glue>, R package version
+  1.8.0, <https://CRAN.R-project.org/package=glue>.
+
+Fisher Z, Tipton E, Zhipeng H (2023). _robumeta: Robust Variance
+  Meta-Regression_. doi:10.32614/CRAN.package.robumeta
+  <https://doi.org/10.32614/CRAN.package.robumeta>, R package version
+  2.1, <https://CRAN.R-project.org/package=robumeta>.
+
+Dayimu A (2025). _forestploter: Create a Flexible Forest Plot_.
+  doi:10.32614/CRAN.package.forestploter
+  <https://doi.org/10.32614/CRAN.package.forestploter>, R package
+  version 1.1.3, <https://CRAN.R-project.org/package=forestploter>.
+
+  
 # How to cite 
 
 If you use code or processed data:
