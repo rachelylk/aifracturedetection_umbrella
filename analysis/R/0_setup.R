@@ -19,7 +19,7 @@ library(grid)
 
 # Paths -------------------------------------------------------------------
 paths <- list(
-  ma_results  = "analysis/data/ma_results.xlsx",       
+  ma_results  = "data/ma_results.xlsx",       
   out_tables  = "analysis/results/tables",
   out_models  = "analysis/results/models",
   out_plots   = "figures_tables/figs_main"
