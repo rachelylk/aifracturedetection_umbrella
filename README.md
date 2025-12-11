@@ -46,7 +46,7 @@ The repo provides:
 - Moderator and subgroup analyses  
 - Robust variance estimation (CR2)  
 - Sensitivity analyses  
-- Forest plots and appendix model checks
+- Forest plots 
   
 ---
 
