@@ -156,7 +156,7 @@ rho <- 0.5
 
 Vse <- with(
   dat_se_ai,
-  wildmeta::impute_covariance_matrix(
+  impute_covariance_matrix(
     vi      = vi,
     cluster = meta_id,
     r       = rho
@@ -173,7 +173,7 @@ cr2_se_model <- rma.mv(
 
 Vsp <- with(
   dat_sp_ai,
-  wildmeta::impute_covariance_matrix(
+  impute_covariance_matrix(
     vi      = vi,
     cluster = meta_id,
     r       = rho
