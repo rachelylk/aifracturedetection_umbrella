@@ -713,7 +713,7 @@ predict(ai_3L_specificity_index, transf = plogis)
 
 # Ju, Jung, Kuo, Li, van den Broek, Wong, Zhang
 
-target_surnames <- c("ju","jung","kuo", "li", "van den Broek", "wong", "zhang")
+target_surnames <- c("ju","jung","kuo", "li", "van den broek", "wong", "zhang")
 
 dat_se_ai_amstar <- dat_se_ai %>%
   filter(str_to_lower(author) %in% target_surnames)
