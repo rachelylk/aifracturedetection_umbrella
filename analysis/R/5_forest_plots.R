@@ -19,7 +19,6 @@ tm <- forestploter::forest_theme(
   ci_Theight   = 0.4,                      # T-shaped CI ends
   ci_col       = c("#3690c0", "#034e7b"),  # Sensitivity / Specificity
   ci_fill      = c("#3690c0", "#034e7b"),
-  refline_gp   = grid::gpar(lwd = 1, lty = "dashed", col = "grey20"),
   vertline_lwd = 1,
   vertline_lty = "dashed",
   vertline_col = "grey20",
@@ -112,7 +111,6 @@ mainp <- forestploter::forest(
   nudge_y   = 0.6,
   xlim      = c(0.6, 1.0),
   ticks_at  = c(0.6, 0.8, 1.0),
-  ref_line  = 0.897,  # your pooled AI-alone sensitivity; tweak if needed
   theme     = tm
 )
 
@@ -215,7 +213,6 @@ subp <- forestploter::forest(
   nudge_y   = 0.6,
   xlim      = c(0.6, 1.0),
   ticks_at  = c(0.6, 0.8, 1.0),
-  ref_line  = 0.897,
   theme     = tm
 )
 
