@@ -47,10 +47,10 @@ spec_index <- fit_and_summarise(dat_sp_ai_index, "index_ai_specificity")
 
 # -------------------------------------------------------------------
 # 3: Sensitivity analysis – AMSTAR-2 'low' reviews only
-# Binh, Hansen, Ju, Jung, Kuo, Li, Nowroozi, Wong, Zhang
+# Ju, Jung, Kuo, Li, van den Broek, Wong, Zhang
 # -------------------------------------------------------------------
 
-amstar_authors <- c("binh","hansen","ju","jung","kuo","li","nowroozi","wong","zhang")
+amstar_authors <- c("ju","jung","kuo", "li", "van den broek", "wong", "zhang")
 
 dat_se_ai_amstar <- dat_se_ai %>%
   dplyr::filter(stringr::str_to_lower(author) %in% amstar_authors)
