@@ -31,10 +31,10 @@ fit_and_summarise <- function(dat, label) {
 
 # -------------------------------------------------------------------
 # 3: Sensitivity analysis – index reviews only
-# Beculic, Li, Husarek, Ju, Den Hengst, Nowroozi
+# Ju, Jung, Kuo, Li, van den Broek, Wong, Zhang
 # -------------------------------------------------------------------
 
-index_authors <- c("beculic","li","husarek","ju","den hengst","nowroozi")
+target_surnames <- c("ju","jung","kuo", "li", "van den Broek", "wong", "zhang")
 
 dat_se_ai_index <- dat_se_ai %>%
   dplyr::filter(stringr::str_to_lower(author) %in% index_authors)
