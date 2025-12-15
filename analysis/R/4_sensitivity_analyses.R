@@ -34,7 +34,7 @@ fit_and_summarise <- function(dat, label) {
 # Ju, Jung, Kuo, Li, van den Broek, Wong, Zhang
 # -------------------------------------------------------------------
 
-target_surnames <- c("ju","jung","kuo", "li", "van den Broek", "wong", "zhang")
+index_authors <- c("ju","jung","kuo", "li", "van den Broek", "wong", "zhang")
 
 dat_se_ai_index <- dat_se_ai %>%
   dplyr::filter(stringr::str_to_lower(author) %in% index_authors)
