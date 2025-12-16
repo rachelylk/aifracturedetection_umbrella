@@ -1,8 +1,8 @@
-# Performance of artificial intelligence for fracture detection: an overview of reviews and second-order meta-analysis
+# Performance of artificial intelligence for fracture detection: an umbrella review and second-order meta-analysis
 
 This repository contains the data, code, and supplementary material for the paper:
 
-**“Performance of artificial intelligence for fracture detection: an overview of reviews and second-order meta-analysis.”**  
+**“Performance of artificial intelligence for fracture detection: an umbrella review and second-order meta-analysis.”**  
 Rachel Kuo*, Ciaran O'Hanlon*, Alexander Freethy*, Catriona Stoddart,Sophie Ludbrook, Alan Hasanic, Eli Harriss, Dominic Furniss, Gary S Collins
 
 *Joint first authorship
